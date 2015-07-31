@@ -7,7 +7,6 @@ import sbt.Keys._
 
 
 object ExamplesCoreUtilsBuild extends Build {
-
   lazy val examplesCoreUtilsSettings = Defaults.defaultSettings ++ Seq(
     name := "examples-core-utils",
     scalaVersion := "2.11.4",
@@ -22,5 +21,4 @@ object ExamplesCoreUtilsBuild extends Build {
     file("."),
     settings = examplesCoreUtilsSettings
   )
-
 }
